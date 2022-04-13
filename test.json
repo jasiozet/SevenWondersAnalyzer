@@ -1,0 +1,67 @@
+{
+    "games": [
+        {
+            "id": "1",
+            "playerCount": 3,
+            "wonder": "Halikarnassos",
+            "side": "A",
+            "place": "1"
+        },
+        {
+            "id": "2",
+            "playerCount": 4,
+            "wonder": "Ephesos",
+            "side": "B",
+            "place": "2"
+        },
+        {
+            "id": "3",
+            "playerCount": 5,
+            "wonder": "Alexandria",
+            "side": "A",
+            "place": "5"
+        },
+        {
+            "id": "4",
+            "playerCount": 6,
+            "wonder": "Giza",
+            "side": "B",
+            "place": "6"
+        },
+        {
+            "id": "5",
+            "playerCount": 7,
+            "wonder": "Rhodos",
+            "side": "B",
+            "place": "7"
+        },
+        {
+            "id": "6",
+            "playerCount": 7,
+            "wonder": "Babylon",
+            "side": "B",
+            "place": "7"
+        },
+        {
+            "id": "7",
+            "playerCount": 3,
+            "wonder": "Olympia",
+            "side": "A",
+            "place": "1"
+        },
+        {
+            "id": "8",
+            "playerCount": 3,
+            "wonder": "Olympia",
+            "side": "A",
+            "place": "1"
+        },
+        {
+            "id": "9",
+            "playerCount": 3,
+            "wonder": "Olympia",
+            "side": "A",
+            "place": "2"
+        }
+    ]
+}
