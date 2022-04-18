@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Utils.fs" />
     <Compile Include="Variations.fs" />
+    <Compile Include="WonderAnalyzer.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
