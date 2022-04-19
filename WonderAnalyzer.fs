@@ -30,12 +30,20 @@ let getWondersByCode codes =
     |> List.map getWonderByCode
     |> List.ofSeq
 
-let calculateWonderAveragePlace entryLogs wonder =
+let calculateWonderAveragePlace  entryLogs wonderId  =
     let total =
         entryLogs
-        |> List.filter (fun e -> e.code[0] = wonder)
-        |>List.sumBy (fun e -> e.place)
-    float total / float entryLogs.Length
+        |> List.filter (fun e -> e.code[0] = wonderId)
+        |> List.sumBy (fun e -> e.place)
+    let length =
+        entryLogs
+        |> List.filter (fun e -> e.code[0] = wonderId)
+        |> List.length
+    float total / float length
+
+let getWondersStats entryLogs =
+    [1..7]
+    |> List.map (fun i -> (i, calculateWonderAveragePlace entryLogs i))
 
 let showWonderSetupToConsole codes playerCount =
     let wonders = getWondersByCode codes
